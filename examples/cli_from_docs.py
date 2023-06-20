@@ -47,7 +47,7 @@ def command(optional_argument: str = None):
         my_config.update(new_key=optional_argument)
 
     # will work and create a new (untyped) property:
-    my_config.update(new_key=optional_argument, strict=False)
+    my_config.update(new_key=optional_argument, _strict=False)
 
     print(my_config)
 
